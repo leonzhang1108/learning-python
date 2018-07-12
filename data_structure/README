@@ -1,0 +1,46 @@
+字符串`''`
+长度：len
+首字母大写：capitalize
+全大写全小写：upper, lower
+查找位置：find(index找不到时报错)
+填充：center, rjust, ljust
+查找：[index]
+切片：[from:to], [from:], [:to]
+从n个起过m个选一：[n::m]
+倒序：[::-1]
+是否数字构成：isdigit
+是否字母构成：isalpha
+是否数字和字母构成：isalnum
+前后空格修剪：strip
+
+数组`[]`
+添加：append(value)
+插入：insert(index, value)
+复制：[:]
+拼接：+=
+删除：remove
+清空：clear
+转化成元组：tuple[list]
+
+元组(不能修改)`()`
+转化成list：list[tuple]
+
+集合`{}`
+添加：add
+合并集合：update
+删除：discard(value)
+弹出：pop
+交集：s1 & s2 (s1.intersection(s2))
+并集：s1 | s2 (s1.union(s2))
+差集：s1 - s2 (s1.difference(s2))
+对称差：s1 ^ s2 (s1.symmetric_diffence(s2))
+子集：s1 <= s2 (s1.issubset(s2))
+超集：s1 >= s2 (s1.issuperset(s2))
+
+字典`{k:v}`
+添加：update(k=v)
+获取：dictionary.get(k) (dictionary[k])
+弹出：dictionary.popitem()
+清空：clear
+
+

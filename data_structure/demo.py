@@ -1,0 +1,5 @@
+set2 = set(range(1, 10))
+set2.update({11,12})
+set2.discard(11)
+print(set2.pop())
+print(set2)
